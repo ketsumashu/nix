@@ -11,11 +11,7 @@
     ../modules/minimal
     ../modules/fonts.nix
     ../modules/games.nix
-    ../modules/security.nix
-    ../modules/services.nix
     ../modules/sound.nix
-    ../modules/xremap.nix
-
     ../modules/desktop/hyprland.nix
   ];
 
