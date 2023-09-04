@@ -25,6 +25,6 @@
     playerctl
   ];
   home.file = {
-    ".config/hypr/hyprland.conf".source = ./hyprland.conf;
+    ".config/hypr/hyprland.conf".text = (import ./hypr-config.nix) colorscheme;
   };
 }

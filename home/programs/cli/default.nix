@@ -8,7 +8,6 @@
   ];
 
   home.packages = with pkgs; [
-    # Development
 
     # C
     gcc
@@ -24,10 +23,6 @@
 
     # Python
     python312
-
-    # Rust
-    rust-bin.stable.latest.default
-
 
     # Utilities
     bat # cat alternative

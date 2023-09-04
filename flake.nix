@@ -1,5 +1,5 @@
 {
-  description = "NixOS & homa-manager flake of mashu";
+  description = "flake of mashu";
 
   inputs = {
     # Nix
@@ -25,7 +25,7 @@
     home-manager,
     ...
   }: let
-    colorscheme = (import ./colorschemes) "tokyonight-moon";
+    colorscheme = (import ./colorschemes) "substrata";
   in {
     nixosConfigurations = {
       # Desktop
