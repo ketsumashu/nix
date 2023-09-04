@@ -4,6 +4,6 @@
   };
   home.file = {
     ".config/wezterm/wezterm.lua".source = ./wezterm.lua;
-    ".config/wezterm/colors".source = ./colors;
+    ".config/wezterm/colors/substrata.lua".source = ./colors/substrata.lua;
   };
 }
