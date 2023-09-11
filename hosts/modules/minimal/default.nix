@@ -8,7 +8,7 @@
   ];
 
   # user environment
-  users.users.mashunix = {
+  users.users.mashu = {
     isNormalUser = true;
     shell = pkgs.zsh;
     extraGroups = ["networkmanager" "wheel" "docker" "audio" "video"];
@@ -35,8 +35,4 @@
 
   # allow proprietary software
   nixpkgs.config.allowUnfree = true;
-
-  system = {
-    stateVersion = "23.10";
-  };
 }

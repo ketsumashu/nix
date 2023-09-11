@@ -31,13 +31,10 @@
 
     # Utilities
     bat # cat alternative
-    bottom # top alternative
     exa # ls alternative
-    du-dust # du alternative
     duf # df alternative
     fd # find alternative
     killall # process killer
-    procs # ps alternative
     ripgrep # grep alternative
 
     # Archives
@@ -47,7 +44,6 @@
     unar
 
     # Rice
-    neofetch
     pfetch
   ];
 }

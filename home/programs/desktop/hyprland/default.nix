@@ -19,10 +19,8 @@
   home.packages = with pkgs; [
     # Wayland utility
     swayidle
-    inputs.hyprland-contrib.packages.x86_64-linux.grimblast
     wl-clipboard
     pamixer
-    playerctl
   ];
   home.file = {
     ".config/hypr/hyprland.conf".source = ./hyprland.conf;
