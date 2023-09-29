@@ -27,7 +27,7 @@
 
     # Utilities
     bat # cat alternative
-    exa # ls alternative
+    eza # ls alternative
     duf # df alternative
     fd # find alternative
     killall # process killer
