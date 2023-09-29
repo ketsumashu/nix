@@ -37,7 +37,7 @@
 
     homeConfigurations = {
       # Desktop
-      "mashu@mashunix" = home-manager.lib.homeManagerConfiguration {
+      "mashu" = home-manager.lib.homeManagerConfiguration {
         pkgs = import nixpkgs {
           system = "x86_64-linux";
           config.allowUnfree = true;
