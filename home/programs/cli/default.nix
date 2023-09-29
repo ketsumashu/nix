@@ -25,10 +25,6 @@
     # Python
     python312
 
-    # Rust
-    rust-bin.stable.latest.default
-
-
     # Utilities
     bat # cat alternative
     exa # ls alternative
